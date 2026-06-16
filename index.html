@@ -1,1 +1,101 @@
-<!doctype html><meta charset="utf-8"><title>School Board Campaign OS Demo</title><meta http-equiv="refresh" content="0; url=./"><p>School Board Campaign OS demo repository. The source repository deploys here automatically.</p>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>School Board Campaign OS — CCSD 46 Mission Control</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+  <aside class="sidebar">
+    <div class="brand-lockup">
+      <div class="brand-mark">46</div>
+      <div>
+        <div class="brand">School Board Campaign OS</div>
+        <div class="tag">CCSD 46 Mission Control</div>
+      </div>
+    </div>
+    <p class="sidebar-copy">Calm execution system for first-time school board candidates. Tribal knowledge included.</p>
+    <nav class="nav" aria-label="Dashboard sections">
+      <button data-section="mission">Mission Control</button>
+      <button data-section="readiness">Readiness</button>
+      <button data-section="mechanics">Election Mechanics</button>
+      <button data-section="district">District Intel</button>
+      <button data-section="terrain">Political Terrain</button>
+      <button data-section="operations">Operations</button>
+      <button data-section="opensource">Open Source</button>
+      <button data-section="tvlawyer" class="tv-nav">TV Lawyer</button>
+    </nav>
+    <p class="footer-note">Not legal advice. Verify filing and finance rules with Lake County Clerk, ISBE, and counsel.</p>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">Reference implementation · CCSD 46</div>
+        <h1 id="sectionTitle">Mission Control</h1>
+      </div>
+
+    </header>
+
+    <div class="progress-card" aria-live="polite">
+      <div class="progress-meta"><span id="progressLabel">Action items</span><span id="progressHint">Progress appears after this panel loads.</span></div>
+      <div class="progress-track"><div id="progressFill" class="progress-fill"></div></div>
+    </div>
+
+    <section id="mission" class="section active">
+      <div id="warnings"></div>
+      <div class="panel-card"><div class="card-head"><h3>Next 3 actions</h3><button id="toggleAllTasks" class="text-button">Show all</button></div><div id="taskList"></div></div>
+    </section>
+
+    <section id="readiness" class="section">
+      <div class="panel-card"><div class="card-head"><h3>Readiness actions</h3><button id="toggleReadiness" class="text-button">Show all</button></div><div id="readinessList"></div></div>
+    </section>
+
+    <section id="mechanics" class="section">
+      <div class="panel-card"><div class="card-head"><h3>Critical election mechanics</h3><button id="toggleMechanics" class="text-button">Show all</button></div><div id="mechanicsList"></div></div>
+      <div class="panel-card soft"><h3>Verify before action</h3><p class="muted">Computed dates are planning estimates only. Confirm with Lake County Clerk, ISBE, and counsel before collecting signatures or filing paperwork.</p></div>
+    </section>
+
+    <section id="district" class="section">
+      <div class="panel-grid" id="districtCards"></div>
+      <div class="panel-card"><div class="card-head"><h3>Official source links</h3><button id="toggleSources" class="text-button">Show all</button></div><ul id="sources" class="source-list"></ul></div>
+    </section>
+
+    <section id="terrain" class="section">
+      <div class="panel-card"><div class="card-head"><h3>Political terrain actions</h3><button id="toggleTerrain" class="text-button">Show all</button></div><div id="tribalCards"></div></div>
+    </section>
+
+    <section id="operations" class="section">
+      <div class="panel-card"><div class="card-head"><h3>Operations modules</h3><div class="inline-controls"><select id="opsSelect" class="select"></select><button id="toggleOps" class="text-button">Show all</button></div></div><div id="opsDetail"></div></div>
+      <div class="panel-grid" id="opsPreview"></div>
+    </section>
+
+    <section id="opensource" class="section">
+      <div class="panel-card"><div class="card-head"><h3>Open-source stewardship path</h3><button id="toggleOpenSource" class="text-button">Show all</button></div><div id="openSourceSteps"></div></div>
+    </section>
+
+    <section id="tvlawyer" class="section">
+      <div class="panel-card tv-lawyer-card">
+        <span class="pill gold">Legal due diligence, not legal advice</span>
+        <h3>TV Lawyer</h3>
+        <p class="tv-slogan">“I'm not a lawyer, but I play one on TV.”</p>
+        <div class="warning compact"><b>Disclaimer:</b> TV Lawyer is not a real lawyer, not your lawyer, not legal advice, not a replacement for qualified counsel, and not something to rely on for legal decisions.</div>
+        <div id="tvLawyerLog" class="chat-log"><div class="chat-msg bot"><b>TV Lawyer:</b> Ask about filing rules, petition risks, campaign finance triggers, board governance, employment conflicts, disclaimers, or what to verify before paying counsel.</div></div>
+        <textarea id="tvLawyerQuestion" class="chat-input" rows="5" placeholder="Ask a legal due-diligence question..."></textarea>
+        <div class="chat-actions"><button id="tvLawyerAsk" class="primary-button" type="button">Ask TV Lawyer</button><span id="tvLawyerStatus" class="muted"></span></div>
+      </div>
+    </section>
+  </main>
+</div>
+<div id="actionModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+  <div class="modal-card">
+    <button id="modalClose" class="modal-close" type="button" aria-label="Close action details">×</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

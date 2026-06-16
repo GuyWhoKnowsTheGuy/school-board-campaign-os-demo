@@ -1,0 +1,185 @@
+{
+  "district": {
+    "name": "Community Consolidated School District 46",
+    "shortName": "CCSD 46",
+    "officeAddress": "565 Frederick Road, Grayslake, IL 60030",
+    "phone": "(847) 223-3540",
+    "region": "Central Lake County / northeastern Illinois",
+    "communitiesServed": [
+      "Grayslake",
+      "Third Lake",
+      "Round Lake",
+      "Round Lake Beach",
+      "Round Lake Park",
+      "Lake Villa",
+      "Hainesville"
+    ],
+    "sourceNotes": [
+      "CCSD 46 home page describes service to seven communities in northeastern Illinois and district office contact information."
+    ],
+    "schools": [
+      {
+        "name": "Avon Center School",
+        "grades": "K-4",
+        "type": "neighborhood elementary",
+        "reportedEnrollment": "337"
+      },
+      {
+        "name": "Meadowview School",
+        "grades": "K-4",
+        "type": "neighborhood elementary",
+        "reportedEnrollment": "338"
+      },
+      {
+        "name": "Prairieview School",
+        "grades": "K-4",
+        "type": "neighborhood elementary",
+        "reportedEnrollment": "source page lists enrollment; verify current value"
+      },
+      {
+        "name": "Woodview School",
+        "grades": "K-4",
+        "type": "neighborhood elementary",
+        "reportedEnrollment": "verify current value"
+      },
+      {
+        "name": "Park Campus",
+        "grades": "K-8",
+        "type": "neighborhood school",
+        "reportedEnrollment": "verify current value"
+      },
+      {
+        "name": "Frederick School",
+        "grades": "5-6",
+        "type": "intermediate school",
+        "reportedEnrollment": "verify current value"
+      },
+      {
+        "name": "Grayslake Middle School",
+        "grades": "7-8",
+        "type": "middle school",
+        "reportedEnrollment": "verify current value"
+      },
+      {
+        "name": "Early childhood center",
+        "grades": "Pre-K / early childhood",
+        "type": "located in one K-4 building",
+        "reportedEnrollment": "155 director/student-services line in extracted official page; verify specific facility"
+      }
+    ],
+    "studentPopulation": "Official CCSD page says diverse population of over 4,000 students, teachers, administrators, and support staff; U.S. News reports 3,667 students, minority enrollment 50%, economically disadvantaged 34.2%. Use Illinois Report Card for authoritative student demographics before publication."
+  },
+  "board": {
+    "structure": "Board of Education members are elected for four-year terms by community members residing within CCSD 46 boundaries.",
+    "meetingCadence": "Generally twice a month, with one meeting per month during summer.",
+    "publicRecords": [
+      "Board agendas",
+      "minutes",
+      "packets",
+      "board meeting schedules",
+      "committee schedules",
+      "policy manual"
+    ],
+    "knownTermsFromOfficialPage": [
+      "Term: 2025-2029",
+      "Term: 2023-2027"
+    ]
+  },
+  "electionMechanics": {
+    "jurisdiction": "Illinois consolidated school board election; verify final calendar with Lake County Clerk and Illinois State Board of Elections.",
+    "nextLikelyElectionDate": "2027-04-06",
+    "computedFilingDeadlineEstimate": "2026-12-21 (106 days before 2027-04-06; verify official calendar)",
+    "computedEarliestCirculationEstimate": "2026-09-22 (90 days before estimated filing deadline; verify official calendar)",
+    "petitionRule": "IASB candidate information: nominating petition signed by at least 50 registered voters or 10% of voters, whichever is less; verify office-specific forms and signature count with election authority.",
+    "requiredPapersChecklist": [
+      "Statement of Candidacy",
+      "Nominating petitions",
+      "Statement of Economic Interests receipt/filing",
+      "Campaign finance committee setup if thresholds/activities trigger reporting",
+      "Receipt/filing copy retention",
+      "Objection-period monitoring"
+    ],
+    "filingAuthorities": [
+      "Lake County Clerk",
+      "Illinois State Board of Elections",
+      "local election official rules as applicable"
+    ]
+  },
+  "strategicPlanSignals": [
+    "financial transparency and alignment of financial decision-making to district goals",
+    "Master Facilities Plan / equitable quality learning environments",
+    "Master Technology Plan / equitable technology-rich learning environments",
+    "communication consistency and transparency with stakeholders"
+  ],
+  "referenceConcerns": [
+    "referendum/facilities follow-through",
+    "tax impact and trust",
+    "enrollment trends",
+    "student services space",
+    "teacher/staff morale",
+    "communications transparency",
+    "board-superintendent role clarity"
+  ],
+  "sources": [
+    {
+      "id": "ccsd-home",
+      "title": "CCSD 46 Home",
+      "url": "https://d46.org/",
+      "use": "district description, communities, school structure, district office"
+    },
+    {
+      "id": "ccsd-board",
+      "title": "CCSD 46 Board of Education",
+      "url": "https://d46.org/board-of-education/",
+      "use": "terms, meeting cadence, agenda/minute/packet availability"
+    },
+    {
+      "id": "ccsd-board-members",
+      "title": "CCSD 46 Board of Education Members",
+      "url": "https://d46.org/board-of-education/board-of-education-members/",
+      "use": "incumbent/member terms and board-role context"
+    },
+    {
+      "id": "ccsd-schools",
+      "title": "CCSD 46 District Schools",
+      "url": "https://d46.org/schools/",
+      "use": "school structure and facility roster"
+    },
+    {
+      "id": "ccsd-strategic-plan",
+      "title": "CCSD 46 Strategic Plan",
+      "url": "https://d46.org/strategic-plan/",
+      "use": "district priorities and governance agenda"
+    },
+    {
+      "id": "ccsd-voter-info",
+      "title": "CCSD 46 Voter Information",
+      "url": "https://d46.org/voter-info/",
+      "use": "voter registration and vote-by-mail references, Lake County Clerk linkage"
+    },
+    {
+      "id": "lake-petition-packets",
+      "title": "Lake County Petition Packets",
+      "url": "https://www.lakecountyil.gov/309/Petition-Packets",
+      "use": "petition packet and local filing resources"
+    },
+    {
+      "id": "iasb-candidates",
+      "title": "IASB Information for Candidates",
+      "url": "https://www.iasb.com/memberships-and-divisions/school-board-elections/information-for-candidates",
+      "use": "school board candidate requirements and petition rule"
+    },
+    {
+      "id": "isbe-running",
+      "title": "Illinois State Board of Elections Running for Office",
+      "url": "https://www.elections.il.gov/RunningForOffice.aspx?MID=rOlNCTNZd9A=",
+      "use": "candidate guide and election/campaign finance calendar source"
+    },
+    {
+      "id": "illinois-report-card",
+      "title": "Illinois Report Card District 34049046004",
+      "url": "https://irc.isbe.net/District.aspx?source=studentcharacteristics&source2=enrollment&Districtid=34049046004",
+      "use": "authoritative enrollment and demographics to verify before publication"
+    }
+  ]
+}
